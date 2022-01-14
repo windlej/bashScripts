@@ -24,13 +24,6 @@ done
 
 useradd -m "$username" -p "$password" > /dev/null 2>&1
 
-#------------#
-# VARIATIONS #
-#------------#
-# useradd -m "$username"
-# echo -n "$password\n$password\n" | passwd $username"
-# echo "${username}:${password}" | chpasswd
-
 if [ "$?" -eq 0 ]; then
   echo "Username: $username"
   echo "Password: $password"
