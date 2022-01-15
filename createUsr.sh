@@ -1,7 +1,7 @@
 #!/bin/sh
 
 usage() {
-  printf "create-user [-u|--username] &lt;username&gt;\n"
+  printf "createUsr [-u|--username] &lt;username&gt;\n"
   printf " OPTIONS\n"
   printf "  -u --username\tusername of the new account (required)\n"
   printf "  -p --password\tpassword for the new account (optional)\n"
